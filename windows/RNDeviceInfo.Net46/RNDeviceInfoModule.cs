@@ -103,7 +103,7 @@ namespace RNDeviceInfo
                 {
                 }
 
-                constants["instanceId"] = unique_id;
+                constants["instanceId"] = "not available";
                 constants["deviceName"] = deviceName;
                 constants["systemName"] = os;
                 constants["systemVersion"] = osVersion;
@@ -113,7 +113,7 @@ namespace RNDeviceInfo
                 constants["deviceId"] = hardwareVersion;
                 constants["deviceLocale"] = culture.Name;
                 constants["deviceCountry"] = culture.EnglishName;
-                constants["uniqueId"] = device_id;
+                constants["uniqueId"] = unique_id;
                 constants["systemManufacturer"] = manufacturer;
                 constants["bundleId"] = packageName;
                 constants["appName"] = packageName;
