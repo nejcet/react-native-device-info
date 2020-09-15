@@ -55,7 +55,7 @@ namespace RNDeviceInfo
 
                 try
                 {
-                    constants["appVersion"] = string.Format("{0}.{1}.{2}.{3}", version.Major, version.Minor, version.Build, version.Revision);
+                    constants["appVersion"] = string.Format("{0}.{1}.{2}", version.Major, version.Minor, version.Build);
                     constants["buildNumber"] = version.Build.ToString();
                     constants["buildVersion"] = version.Build.ToString();
                 }
