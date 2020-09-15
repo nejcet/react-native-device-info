@@ -51,7 +51,7 @@ namespace RNDeviceInfo
                 constants["buildNumber"] = 0;
 
                 String packageName = Assembly.GetExecutingAssembly().GetName().ToString();
-                Version version = Assembly.GetExecutingAssembly().GetName().Version;
+                Version version = Assembly.GetEntryAssembly().GetName().Version;
 
                 try
                 {
